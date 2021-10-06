@@ -41,4 +41,4 @@ ve her türlü internet kaynağı.
 Dr. Öğr. Üyesi Ali ŞENTÜRK   
 eposta: alisenturk@isparta.edu.tr   
 GitHub: github.com/asenturk/eem465   
-Twitter: @asntrk
+Twitter: [@asntrk](https://twitter.com/asntrk)
