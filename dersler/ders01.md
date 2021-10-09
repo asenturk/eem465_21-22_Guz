@@ -23,13 +23,6 @@ int main(){
 
 ```
 
-
-
-
-
-
-
-
 ```C
 int main(){
 	int i;
