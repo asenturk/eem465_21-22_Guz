@@ -1,12 +1,11 @@
-
 ## Makro tanımlama
 
 ```C
 #define PI 3.14
 int main(){
 
-	double r=10, alan;
-	alan=r*r*PI;	
+    double r=10, alan;
+    alan=r*r*PI;    
 
 }
  ``` 
@@ -24,9 +23,9 @@ int main(){
 
 int main(){
 
-	// X'le ilgili gerekli tanımlamalar yapıldıktan sonra
+    // X'le ilgili gerekli tanımlamalar yapıldıktan sonra
     // aşağıdaki gibi bir kullanım yapılabilir.
-	// X = X | X_15_0;	
+    // X = X | X_15_0;    
 }
  ``` 
 
@@ -34,22 +33,22 @@ int main(){
 
 ```C
 int main(){
-	
-	int a, b, *p1, *p2;
-	a=10;
-	b=20;
-	p1 = &a;
-	p2 = &b;
-	
-	*p1 = *p1 + 2; 
-	*p2 = *p2 + 4;
+    
+    int a, b, *p1, *p2;
+    a=10;
+    b=20;
+    p1 = &a;
+    p2 = &b;
+    
+    *p1 = *p1 + 2; 
+    *p2 = *p2 + 4;
 
-	p2 = &a;
-	
-	*p1 = *p1 + 2; 
-	*p2 = *p2 + 4;
-	
-	
+    p2 = &a;
+    
+    *p1 = *p1 + 2; 
+    *p2 = *p2 + 4;
+    
+    
 }
  ``` 
 
@@ -57,13 +56,13 @@ int main(){
 ## Tür dönüşümü
 ```C
 int main(){
-	
-	double a=10.3;
-	double tam, ondalik;
-	
-	tam = (int)a;
-	ondalik = a-tam;
-	
+    
+    double a=10.3;
+    double tam, ondalik;
+    
+    tam = (int)a;
+    ondalik = a-tam;
+    
 }
  ``` 
 
@@ -72,10 +71,10 @@ Sayısal bir değerin işaretçi türüne dönüşümü:
 #define GPIOB_MODER
 
 int main(){
-	
-	int adres_verisi;
-	adres_verisi = *((int*)0x40020400);
-		
+    
+    int adres_verisi;
+    adres_verisi = *((int*)0x40020400);
+        
 }
  ``` 
 
@@ -85,10 +84,10 @@ Tür dönüşümü, işaretçi ve makronun birlikte kullanılması:
 #define GPIOB_MODER (*((int*)0x40020400))
 
 int main(){
-	
-	int adres_verisi;	
-	adres_verisi = GPIOB_MODER;
-		
+    
+    int adres_verisi;    
+    adres_verisi = GPIOB_MODER;
+        
 }
  ``` 
 ## Tür tanımlama
@@ -97,11 +96,11 @@ int main(){
 typedef unsigned char BOOL;
 
 int main(){
-	
+    
     BOOL x;
-	x=1;
-	x=0;
-		
+    x=1;
+    x=0;
+        
 }
  ```
 
@@ -112,16 +111,16 @@ int main(){
 #include <string.h>
 struct calisan{
   char isim[50];
-	int sicil;
-	float maas;
+    int sicil;
+    float maas;
 };
 
 int main(){
 
-	struct calisan calisan1;
-	strcpy(calisan1.isim, "isim soyisim");
-	calisan1.maas=6571.7;
-	calisan1.sicil=1254;
+    struct calisan calisan1;
+    strcpy(calisan1.isim, "isim soyisim");
+    calisan1.maas=6571.7;
+    calisan1.sicil=1254;
 
 }
  ``` 
@@ -133,29 +132,29 @@ Yapı türü tanımlama
 
 struct calisan{
   char isim[50];
-	int sicil;
-	float maas;
+    int sicil;
+    float maas;
 };
 
 typedef struct {
   char isim[50];
-	int sicil;
-	float maas;
+    int sicil;
+    float maas;
 }calisan_x;
 
 int main(){
 
-	struct calisan calisan1;
-	calisan_x calisan2;
-	
+    struct calisan calisan1;
+    calisan_x calisan2;
+    
     strcpy(calisan1.isim, "isim soyisim");
-	calisan1.maas=6571.7;
-	calisan1.sicil=1254;
-	
-	strcpy(calisan2.isim, "isim2 soyisim2");
-	calisan2.maas=7571.7;
-	calisan2.sicil=2254;
-	
+    calisan1.maas=6571.7;
+    calisan1.sicil=1254;
+    
+    strcpy(calisan2.isim, "isim2 soyisim2");
+    calisan2.maas=7571.7;
+    calisan2.sicil=2254;
+    
 }
  ``` 
 
@@ -165,29 +164,29 @@ int main(){
 #include <string.h>
 
 typedef struct {
-  char isim[50];
-	int sicil;
-	float maas;
+    char isim[50];
+    int sicil;
+    float maas;
 }calisan;
 
 int main(){
 
-	calisan calisan1, *p;
-	
+    calisan calisan1, *p;
+    
     strcpy(calisan1.isim, "isim soyisim");
-	calisan1.maas=6571.7;
-	calisan1.sicil=1254;
-	
+    calisan1.maas=6571.7;
+    calisan1.sicil=1254;
+    
     p=&calisan1;
 
     (*p).maas=7500.1;
     (*p).sicil=1255;
 
     //veya işaretçi için ok operatörü kullanılabilir.
-	
+    
     p->maas=7900.1;
     p->sicil=1300;
-	
+    
 }
  ``` 
 
@@ -196,17 +195,17 @@ int main(){
 ```C #include <string.h>
 typedef struct {
     int X;
-	int Y;
-	int Z;
+    int Y;
+    int Z;
 } XYZ;
 
 int main(){
-	
-	XYZ *p;
-	p=(XYZ*)0x40020C00;
-	p->X=10;
-	p->Y=20;
-	p->Z=30;
+    
+    XYZ *p;
+    p=(XYZ*)0x40020C00;
+    p->X=10;
+    p->Y=20;
+    p->Z=30;
 
 }
  ``` 
