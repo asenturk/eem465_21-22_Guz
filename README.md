@@ -2,6 +2,14 @@
 ISUBU Teknoloji Fak. Elektrik-Elektronik Müh. EEM-465 Gömülü Sistemler Dersi 
 
 
+**Kart - mikrokontrolcü teknik dokümanlar**
+- [Reference Manual](https://github.com/asenturk/stm32f4/blob/master/Referanslar/01%20-%20RM0090%20Reference%20manual.pdf)
+
+- [Datasheet](https://github.com/asenturk/stm32f4/blob/master/Referanslar/02%20-%20STM32F407xx%20Datasheet%20-%20production%20data.pdf)
+
+- [User Manual](https://github.com/asenturk/stm32f4/blob/master/Referanslar/04%20-%20UM1472%20User%20manual.pdf)
+
+---
 
 **Program ve Kütüphanelerin kurulumu Proje ve Debugla ilgili dokümanlar:**
 
