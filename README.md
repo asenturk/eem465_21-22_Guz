@@ -22,6 +22,9 @@ ISUBU Teknoloji Fak. Elektrik-Elektronik Müh. EEM-465 Gömülü Sistemler Dersi
 - [Derleyici Değiştirme](https://github.com/asenturk/stm32f4/blob/master/Keil_uVision/04_derleyici_degistirme.pdf)
 
 - [Debug ve Wach Penceresi](https://github.com/asenturk/stm32f4/blob/master/Keil_uVision/05_debug_watch_penceresi.pdf)
+
+- [**(Yeni)** Logic Analyser Kullanımı](https://github.com/asenturk/stm32f4/blob/master/Keil_uVision/11_logic_analyser_kullanimi.pdf)
+
 ---
 
 **Kaynaklar:**   
