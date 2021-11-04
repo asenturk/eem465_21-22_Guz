@@ -6,6 +6,15 @@ ISUBU Teknoloji Fak. Elektrik-Elektronik Müh. EEM-465 Gömülü Sistemler Dersi
 
 [![Watch the video](https://img.youtube.com/vi/HrMIRMgGAh0/default.jpg)](https://youtu.be/HrMIRMgGAh0)
 
+[![IMAGE ALT TEXT](https://img.youtube.com/vi/HrMIRMgGAh0/0.jpg)](https://www.youtube.com/watch?v=HrMIRMgGAh0 "Video Title")
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/HrMIRMgGAh0" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
+
+
 ---
 
 
