@@ -2,6 +2,13 @@
 ISUBU Teknoloji Fak. Elektrik-Elektronik Müh. EEM-465 Gömülü Sistemler Dersi 
 
 
+**STM32F4 Mikrodenetleyicisinin Proteus ile simulasyonu**
+
+[![Watch the video](https://img.youtube.com/vi/HrMIRMgGAh0/default.jpg)](https://youtu.be/HrMIRMgGAh0)
+
+---
+
+
 **Kart - mikrokontrolcü teknik dokümanlar**
 - [Reference Manual](https://github.com/asenturk/stm32f4/blob/master/Referanslar/01%20-%20RM0090%20Reference%20manual.pdf)
 
