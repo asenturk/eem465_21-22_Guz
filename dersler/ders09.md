@@ -28,6 +28,7 @@ int main(){
 }
 ```
 Programın çalışması sonucu lojik analizöründe görülen sinyaller:
+
 ![1](./images/ders09_1.png)
 
 ![2](./images/ders09_2.png)
