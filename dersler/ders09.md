@@ -26,7 +26,7 @@ int main(){
 
     while(1);
 }
-```C
+```
 Programın çalışması sonucu lojik analizöründe görülen sinyaller:
 ![1](./images/ders09_1.png)
 
@@ -35,4 +35,5 @@ Programın çalışması sonucu lojik analizöründe görülen sinyaller:
 ![1](./images/ders09_3.png)
 
 ![2](./images/ders09_4.png)
+
 
