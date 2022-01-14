@@ -3,7 +3,7 @@
 
 int main(){
 	RCC->CR |= RCC_CR_HSEON;
-	while(!(RCC->CR & RCC_CR_HSEON));
+	while(!(RCC->CR & RCC_CR_HSERDY));
 	RCC->CFGR |= RCC_CFGR_SW_0;
 	
 	RCC->AHB1ENR |= RCC_AHB1ENR_GPIOCEN;
